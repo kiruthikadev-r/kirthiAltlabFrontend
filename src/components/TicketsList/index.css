@@ -1,0 +1,85 @@
+.tickets-list-container {
+    max-width: 800px;
+    margin-left: 350px;
+    /* margin: 50px auto; */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tickets-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #1abc9c;
+    color: white;
+  }
+  
+  .table-header th {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .table-row {
+    transition: background-color 0.3s;
+  }
+  
+  .table-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table-cell {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .ticket-link {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  
+  .ticket-link:hover {
+    text-decoration: underline;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+  }
+  
+  .notes-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .note {
+    margin-bottom: 10px;
+  }
+  

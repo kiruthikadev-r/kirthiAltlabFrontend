@@ -1,0 +1,85 @@
+.ticket-details-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-details-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .ticket-detail {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .ticket-detail-value {
+    font-weight: bold;
+    color: #1abc9c;
+  }
+  
+  .ticket-notes-title {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    color: #333;
+  }
+  
+  .ticket-note {
+    font-size: 16px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+  }
+  
+  .note-author {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .add-note-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .add-note-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .add-note-input:focus {
+    border-color: #1abc9c;
+    outline: none;
+  }
+  
+  .add-note-button {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-note-button:hover {
+    background-color: #16a085;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  

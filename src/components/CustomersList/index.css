@@ -1,0 +1,67 @@
+
+.customers-list {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.customers-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.customers-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.customers-list th, .customers-list td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.customers-list th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.customers-list tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.customers-list tr:hover {
+    background-color: #f1f1f1;
+}
+
+.customers-list .actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.customers-list .actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.customers-list .actions .edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.customers-list .actions .delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.customers-list .actions button:hover {
+    opacity: 0.8;
+}

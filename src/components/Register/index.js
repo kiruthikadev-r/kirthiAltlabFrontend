@@ -35,7 +35,7 @@ function Register() {
       
       if (response.data) {
         const {uniqueId, role} = response.data;
-      navigate('/tickets')
+      navigate('/')
       login(email, uniqueId, role); 
 
         setSuccess('Registration successful! You can now log in.');

@@ -20,7 +20,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             {/* <Route path="/tickets" element={<TicketsList />} /> */}
             <Route 
-              path="/tickets" 
+              path="/" 
               element={<ProtectedRoute><TicketsList /></ProtectedRoute>} 
             />
             <Route 

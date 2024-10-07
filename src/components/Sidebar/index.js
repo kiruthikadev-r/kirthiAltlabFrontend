@@ -14,7 +14,7 @@ function Sidebar() {
               <Link to="/dashboard" className="sidebar-link">Dashboard</Link>
             </li>
             <li className="sidebar-menu-item">
-              <Link to="/tickets" className="sidebar-link">Tickets</Link>
+              <Link to="/" className="sidebar-link">Tickets</Link>
             </li>
             <li className="sidebar-menu-item">
               <Link to="/add-user" className="sidebar-link">Add User</Link>
@@ -23,7 +23,7 @@ function Sidebar() {
         ) : (
           <>
             <li className="sidebar-menu-item">
-              <Link to="/tickets" className="sidebar-link">Tickets</Link>
+              <Link to="/" className="sidebar-link">Tickets</Link>
             </li>
             <li className="sidebar-menu-item">
               <Link to="/add-tickets" className="sidebar-link">Add Tickets</Link>

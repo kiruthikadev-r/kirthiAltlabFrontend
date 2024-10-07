@@ -17,7 +17,7 @@ function Login() {
     try {
       const response = await axios.post('https://kirthialtlabbackend.onrender.com/api/auth/login', { email, password });
       const { uniqueId, role } = response.data;
-      navigate('/tickets')
+      navigate('/')
       login(email, uniqueId, role); 
     } catch (err) {
       setError('Invalid credentials. Please try again.');

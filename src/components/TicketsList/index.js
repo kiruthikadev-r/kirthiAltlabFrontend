@@ -18,7 +18,7 @@ function TicketsList() {
     if (user && user.uniqueId) {
       setLoading(true); // Show loading while fetching
       try {
-        const response = await axios.get('http://localhost:5000/api/tickets/agent/tickets', {
+        const response = await axios.get('https://kirthialtlabbackend.onrender.com/api/tickets/agent/tickets', {
           headers: {
             uniqueId: user.uniqueId,
           },
@@ -48,7 +48,7 @@ function TicketsList() {
 
   const updateTicketStatus = async (ticketId, newStatus) => {
     try {
-      await axios.put(`http://localhost:5000/api/tickets/tickets/${ticketId}/status`, 
+      await axios.put(`https://kirthialtlabbackend.onrender.com/api/tickets/tickets/${ticketId}/status`, 
         { status: newStatus }, 
         {
           headers: {
@@ -74,7 +74,7 @@ function TicketsList() {
     const handleAddNote = async () => {
       if (noteContent.trim()) {
         try {
-          const response = await axios.post(`http://localhost:5000/api/tickets/tickets/${ticket.ticketId}/notes`, 
+          const response = await axios.post(`https://kirthialtlabbackend.onrender.com/api/tickets/tickets/${ticket.ticketId}/notes`, 
             { content: noteContent }, 
             {
               headers: {

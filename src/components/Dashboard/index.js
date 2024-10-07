@@ -14,12 +14,12 @@ function Dashboard() {
   useEffect(() => {
     const fetchCounts = async () => {
       try {
-        const ticketResponse = await axios.get('http://localhost:5000/api/tickets/agent/tickets', {
+        const ticketResponse = await axios.get('https://kirthialtlabbackend.onrender.com/api/tickets/agent/tickets', {
           headers: {
             uniqueId: user.uniqueId,
           },
         });
-        const customerResponse = await axios.get('http://localhost:5000/api/auth/all-user', {
+        const customerResponse = await axios.get('https://kirthialtlabbackend.onrender.com/api/auth/all-user', {
           headers: {
             uniqueId: user.uniqueId,
           },

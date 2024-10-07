@@ -18,7 +18,7 @@ function CreateTicket() {
     e.preventDefault();
 
     try {
-      await axios.post('http://localhost:5000/api/tickets/tickets', {
+      await axios.post('https://kirthialtlabbackend.onrender.com/api/tickets/tickets', {
         title,
         content,
       }, {

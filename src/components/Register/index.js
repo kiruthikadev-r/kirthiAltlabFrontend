@@ -31,7 +31,7 @@ function Register() {
     }
 
     try {
-      const response = await axios.post('https://kirthialtlabbackend.onrender.com/api/auth/register', { name, email, password });
+      const response = await axios.post('https://kirthialtlabbackend-1.onrender.com/api/auth/register', { name, email, password });
       
       if (response.data) {
         const {uniqueId, role} = response.data;

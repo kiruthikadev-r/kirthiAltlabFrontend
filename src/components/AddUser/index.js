@@ -9,7 +9,7 @@ function CreateUser() {
   const { user } = useAuth(); 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [role, setRole] = useState('user'); 
+  const [role, setRole] = useState('customer'); 
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
